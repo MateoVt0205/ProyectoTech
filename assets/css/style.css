@@ -1,0 +1,14 @@
+ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4;
+}
+

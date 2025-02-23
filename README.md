@@ -1,6 +1,6 @@
 # ProyectoTech
 ***
-##En este proyecto encontraras información relacionada a los diferentes tipo de energía que ofrece nuestro planeta, divididos en secciones las cuales son:
+##E n este proyecto encontraras información relacionada a los diferentes tipo de energía que ofrece nuestro planeta, divididos en secciones las cuales son:
 ### Tabla de contenidos
 1. [Inicio] (#Información general de los diferentes tipos de energía)
 2. [Dashboard] (#Metricas con lo que te puedes ahorrar al usar los diferentes tipos de energía)

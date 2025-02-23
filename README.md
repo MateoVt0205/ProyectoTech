@@ -7,3 +7,12 @@
 3. [Consumo de energia] (#En este apartado tenemos para ti una conversión que te ayudara a saber cuanto puedes ahorrar con los diferentes tipos de energía)
 4. [Contacto] (#Información con la que te podras contactar con nosotros para más infromación)
 5. [Aprende con nosotros] (#En este apartado podremos aprender sobre cada uno de los diferentes tipos de energías que ofrece nuestro planeta
+
+***
+
+### Este proyecto es Realizado por:
+1. Maria Jose 
+2. Bryan
+3. Daniel
+4. Julian Andres Lopez Garcia
+5. Mateo Vélez Toro

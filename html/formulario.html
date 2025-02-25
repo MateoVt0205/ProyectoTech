@@ -25,7 +25,6 @@
                 <li><a href="Index.html" class="hover:text-blue-800">Inicio</a></li>
                 <li><a href="dashboard.html" class="hover:text-blue-800">Dashboard</a></li>
                 <li><a href="formulario.html" class="hover:text-blue-800">Consumo de energia</a></li>
-                <li><a href="Contacto.html" class="hover:text-blue-800">Contacto</a></li>
                 <li><a href="aprendamos.html" class="hover:text-blue-800">Aprende con nosotros</a></li>
             </ul>
         </nav>
@@ -35,7 +34,8 @@
     </div>
     <div class="info">
         <div class="aside mt-5 text-2xl p-4">
-            En este apartado podras mirar que tanto es tu consumo de energia y que tanto podria cambiar el consumo al usar
+            En este apartado podras mirar que tanto es tu consumo de energia y que tanto podria cambiar el consumo al
+            usar
             otro tipo de energías renovables.
         </div>
     </div>
@@ -48,44 +48,61 @@
             <input type="text" required id="name" class="form-control" placeholder="su nombre">
         </div>
         <div class="col-md-6">
-            <label class="text-gray-400">Ingrese la cantidad de energía en kWh que consumes en tu factura (Servicios EPM)</label>
+            <label class="text-gray-400">Ingrese la cantidad de energía en kWh que consumes en tu factura (Servicios
+                EPM)</label>
             <input type="number" id="energia" required class="form-control" placeholder="0000000">
         </div>
         <br>
         <button class="btn btn-primary mb-3" type="button" id="calcular">Consumo generado</button>
     </form>
     <div class="userInformation">
-        <h3 id="EnergyType" class="flex justify-center"></h3>
+        <h3 id="EnergyType" class="flex justify-center"></h3>-
         <div class="username" id="card">
             <span id="spanName"></span>
         </div>
     </div>
-    <!-- <footer class="flex bg-black text-white w-full">
-            <div class="infoFooter flex-col">
-                <span class="flex ml-15">Ubicación:</span>
-                <p class="mb-5 ml-4">Aqui ira la Ubicación en caso de tener una C: </p>
-                <span class="flex ml-15">Telefono:</span>
-                <p class="mb-5 ml-4">0000000000 </p>
-                <span class="flex ml-15">Correo:</span>
-                <p class="mb-5 ml-4">Pepito@example.com</p>
+    
+    <br>
+    <footer class="flex bg-black gap-8">
+        <div class="info">
+            <p><strong class="text-2xl text-white">Ubicación:</strong></p>
+            <div class="information">
+                <p class="text-white">Telefono: (+57 000-000-00)</p>
+                <p class="text-white">Correo: </p>
+                <p class="text-white">mail@example.com</p>
             </div>
-            <div class="about ml-5">
-                <span class="ml-15">Hacerca de:</span>
-                <p class="mb-5 ml-4">Aqui ira un pequeño resumen de lo que se hace con la energía renovable</p>
-                <span class="ml-15" >Misión</span>
-                <p>Misión Xd</p>
-                <span class="ml-15">Visión</span>
-                <p class="mb-5 ml-4">Visión Xd</p>
+        </div>
+        <div class="acerca">
+            <p class="flex justify-center text-white text-2xl">Misión:</p>
+            <div class="information">
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, alias nam cupiditate
+                    atque, ipsa quis deleniti.</p>
+                <p class="text-white">Empresa:</p>
+                <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam ullam quos iusto,
+                    id rerum ex fugiat facere quo nulla nostrum repudiandae labore nobis ipsum!</p>
+                <p class="text-white">Visión:</p>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, maiores ad
+                    praesentium laboriosam repellat culpa placeat fugit unde aliquam sit voluptatum magni eligendi
+                    expedita impedit ullam ipsam iusto quibusdam tempore.</p>
             </div>
-            <div class="form-contact ml-15">
-                <span>Obten más información:</span>
-                <div class="form flex-row">
-                    <input type="email" class="form-control" placeholder="Correo">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
+        </div>
+        <div class="infolegal">
+            <p class="text-white text-2xl">Terminos de uso:</p>
+            <div class="information">
+                <p class="text-white">Politica de privacidad</p>
+                <p class="text-white">Politica de Cookies</p>
+            </div>
+        </div>
+        <div class="masInformacion mt-20">
+            <p class="text-white text-2xl">Obten mas información</p>
 
+            <div class="inputs flex flex-col mb-3">
+                <input type="text" class=" bg-white w-100px rounded-full" placeholder=" Ingresa tu correo:">
             </div>
-    </footer> -->
+            <button class="btn btn-primary btn-sm ml-12">Enviar</button>
+        </div>
+        <hr>
+    </footer>
 </body>
 
 </html>

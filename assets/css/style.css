@@ -59,7 +59,6 @@ footer {
     padding: 20px;
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 470px){
     h1{
          grid-template-columns: 1fr 1fr;
@@ -229,101 +228,3 @@ footer hr {
     margin-top: 20px;
     border-color: #fff;
 }
-=======
-/*Stilos index*/
-button{
-    
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    min-width: 25px;
-    min-height: 25px;
-    transition: .3s ease;
-
-}
-button:hover  {
-    transform: scale(0.8);
-}
-button span{
-    color: black;
-}
-.lista{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-right: 50px;
-}
-
-.lista h1{
-    font-size: 32px;
-}
-.histo {
-    flex-direction: column;
-    margin-right: 50px;
-    margin-top: 20px;
-    text-align: justify;
-}
-.histo h1{
-    margin-top: 10px;
-    text-align: left;
-}
-.histo p{
-    align-items: center;
-    flex-direction: column;
-    margin-top: 30px;
-}
-.histo h2{
-    margin-top: 10px;
-    text-align: left;
-}
-.histo .parrafo0{
-    
-    
-    z-index: 1;
-    width: 97%;
-    height: 2100px;
-    padding: 20px 20px;
-    font-size: 22px;
-    line-height: 1.5;
-    box-shadow: 1px 5px 25px  rgba(0,0,0,0.45);
-    border-radius: 10px;
-    text-align: justify; 
-    margin-top: 16px;
-    margin-left: 16px;
-}
-
-.histo .parrafo0 img{
-    width: 70%;
-    border-radius: 10px;
-    float: left;
-    margin-right: 20px;
-    margin-left: 35px; 
-    
-}
-.histo .parrafo1{
-    
-    z-index: 1;
-    width: 97%;
-    height: 350px;
-    padding: 20px 20px;
-    word-wrap: break-all;
-    font-size: 22px;
-    line-height: 1.5;
-    box-shadow: 1px 5px 25px  rgba(0,0,0,0.45);
-    border-radius: 10px;
-    text-align: justify;
-    margin-top: 16px;
-    margin-left: 16px;
-}    
-.histo .parrafo1 img{
-    width: 510px;
-    border-radius: 10px;
-    float: left;
-    margin-right: 20px;
-    margin-left: 35px;
-}
-
-
-/*FIn estilos index*/
->>>>>>> 1373d9d6a07912342f8c306ee2af327aa2c49c40

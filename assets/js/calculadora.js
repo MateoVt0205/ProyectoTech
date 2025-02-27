@@ -1,10 +1,11 @@
-    
+    //creación de variable para las cartass
+    // const = 
         
         function CalcularConsumo(){
             const name = document.getElementById('name').value;
             const E = document.getElementById("energia").value;
 
-            //Mirar los valores que ingresa el usuario
+            //Mirar los valores que ingresa el usuarioñ
             console.log(name);
             console.log(E);
 
@@ -42,17 +43,15 @@
   <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
 </svg>    
         <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Energia Solar</h5>
-    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Hola ${name}, esta es la cantidad de energía que producirías con energía solar al mes</p>
-    <p class="mb-3 text-gray-500 dark:text-gray-400">${fSolar}</p>
+    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Hola ${name}, esta es la cantidad de energía que producirías con energía solar al mes es de:</p>
+    <p class="mb-3 text-gray-500 dark:text-gray-400">${fSolar} KWh (KiloVatio Hora) </p>
 </div>
 
 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-    <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-water" viewBox="0 0 16 16">
-  <path d="M.036 3.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 3.964a.5.5 0 0 1-.278-.65m0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 6.964a.5.5 0 0 1-.278-.65m0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 9.964a.5.5 0 0 1-.278-.65m0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65"/>
-</svg>
+  
         <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Energia Hidro Electrica</h5>
-    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Hola ${name}, esta es la cantidad de energía que producirías con Energia HidroElectrica al mes</p>
-    <p class="mb-3 text-gray-500 dark:text-gray-400">${fHidroElectrica}</p>
+    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Hola ${name}, esta es la cantidad de energía que producirías con Energia HidroElectrica al mes es de:</p>
+    <p class="mb-3 text-gray-500 dark:text-gray-400">${fHidroElectrica} KWh (KiloVatio Hora) </p>
 </div>
 
 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
@@ -61,8 +60,8 @@
 </svg>
         <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Energia Eolica</h5>
     
-    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Hola ${name}, esta es la cantidad de energía que producirías con Energia Eolica al mes</p>
-    <p class="mb-3 text-gray-500 dark:text-gray-400">${fEolica}</p>
+    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Hola ${name}, esta es la cantidad de energía que producirías con Energia Eolica al mes es de:</p>
+    <p class="mb-3 text-gray-500 dark:text-gray-400">${fEolica} KWh (KiloVatio Hora) </p>
 </div>
 
 
@@ -74,8 +73,8 @@
         <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z"/>
     </svg>
         <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Energia Geotermica</h5>
-    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Hola ${name}, esta es la cantidad de energía que producirías con Energia Geotermica al mes</p>
-    <p class="mb-3 text-gray-500 dark:text-gray-400">${fGeotermica}</p>
+    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Hola ${name}, esta es la cantidad de energía que producirías con Energia Geotermica al mes es de:</p>
+    <p class="mb-3 text-gray-500 dark:text-gray-400">${fGeotermica} KWh (KiloVatio Hora) </p>
 </div>
 </div>
 ` 

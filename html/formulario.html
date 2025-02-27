@@ -33,11 +33,20 @@
         <h1>Consumo de energía:</h1>
     </div>
     <div class="info">
-        <div class="aside mt-5 text-2xl p-4">
+        <div class="aside mt-5 text-2xl p-4 text-center">
             En este apartado podras mirar que tanto es tu consumo de energia y que tanto podria cambiar el consumo al
             usar
             otro tipo de energías renovables.
         </div>
+    </div>
+    <div class="flex justify-center mt-6">
+        
+        <button id="guiaButton" class="btn btn-primary px-4 py-2 rounded-md bg-blue-400 text-white">
+            Guía
+        </button>
+    </div>
+    <div id="guiaImage" class="mt-6 hidden flex justify-center">
+        <img src="../assets/pictures/FacturaEPM.jpg" alt="Guía visual" class="w-500 h-auto rounded-lg shadow-lg">
     </div>
     <p id="prueba"></p>
     </div>
@@ -45,12 +54,12 @@
     <form class="form">
         <div class="col-md-6">
             <label class="text-gray-400">Ingrese su nombre</label>
-            <input type="text" required id="name" class="form-control" placeholder="su nombre">
+            <input type="text" required id="name" class="form-control" placeholder="Ingrese Nombre">
         </div>
         <div class="col-md-6">
             <label class="text-gray-400">Ingrese la cantidad de energía en kWh que consumes en tu factura (Servicios
                 EPM)</label>
-            <input type="number" id="energia" required class="form-control" placeholder="0000000">
+            <input type="number" id="energia" required class="form-control" placeholder="">
         </div>
         <br>
         <button class="btn btn-primary mb-3" type="button" id="calcular">Consumo generado</button>
@@ -74,15 +83,11 @@
         <div class="acerca">
             <p class="flex justify-center text-white text-2xl">Misión:</p>
             <div class="information">
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, alias nam cupiditate
-                    atque, ipsa quis deleniti.</p>
-                <p class="text-white">Empresa:</p>
-                <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam ullam quos iusto,
-                    id rerum ex fugiat facere quo nulla nostrum repudiandae labore nobis ipsum!</p>
+                <p class="text-white">Desarrollar un sistema innovador y sostenible de generación de energía renovable a pequeña escala, utilizando recursos naturales disponibles localmente (como la energía solar, eólica o hidráulica) para abastecer de electricidad a una comunidad o escuela en una zona rural o de difícil acceso.</p>
+                <p class="text-white"></p>
+                <p class="text-white"></p>
                 <p class="text-white">Visión:</p>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, maiores ad
-                    praesentium laboriosam repellat culpa placeat fugit unde aliquam sit voluptatum magni eligendi
-                    expedita impedit ullam ipsam iusto quibusdam tempore.</p>
+                <p class="text-white">Crear un futuro donde las comunidades tengan acceso a fuentes de energía renovable y accesible, impulsando la sostenibilidad y mejorando la calidad de vida mediante soluciones tecnológicas innovadoras.</p>
             </div>
         </div>
         <div class="infolegal">

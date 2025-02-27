@@ -58,3 +58,173 @@ footer {
     color: white;
     padding: 20px;
 }
+
+@media screen and (min-width: 470px){
+    h1{
+         grid-template-columns: 1fr 1fr;
+    }
+    p{
+        font-size: x-large;
+    }
+   
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50; /* Color al pasar el ratón */
+}
+
+/* Formulario */
+.form {
+    margin-top: 30px;
+}
+
+.form label {
+    font-size: 16px;
+    color: #333;
+}
+
+.form .form-control {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.form .btn {
+    width: 10%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form .btn:hover {
+    background-color: #45a049;
+}
+
+/* Sección de información de usuario */
+.userInformation {
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.userInformation h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+footer h3 {
+    font-size: 22px;
+}
+
+footer .info,
+footer .acerca,
+footer .infolegal {
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer .inputs {
+    margin-top: 15px;
+}
+
+footer .inputs input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+footer .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .btn:hover {
+    background-color: #45a049;
+}
+
+footer hr {
+    margin-top: 20px;
+    border-color: #fff;
+}

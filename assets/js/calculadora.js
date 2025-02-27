@@ -83,3 +83,12 @@
     
 }
 document.getElementById('calcular').addEventListener('click', CalcularConsumo);
+
+
+const guiaButton = document.getElementById('guiaButton');
+const guiaImage = document.getElementById('guiaImage');
+
+
+guiaButton.addEventListener('click', function() {
+    guiaImage.classList.toggle('hidden'); 
+});

@@ -1,67 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!--cdn de talwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
-    <!--Fin del cdn-->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/pictures/Icons/uno.png">
+
+    <!-- Custom JS Files -->
     <script src="../assets/js/app.js" defer></script>
+    <script src="../assets/js/index.js" defer></script>
 </head>
-<body>
-    <div class="content">
+
+<body class="Index">
+    <header>
         <nav class="bg-black flex justify-between items-center">
-            <ul class="flex justify-between items-center text-white w-full text-xl mr-7">
+            <ul class="flex justify-between items-center text-white w-full">
                 <li>
-                    <img src="../assets/pictures/a-logo-with-the-text-renovable-energy-wi_U3MbIY2rTayEEb1WnoeuJg_vDnmoc8_Th2t5tTGjgpLwA-removebg-preview 1.png" alt="Logo" width="100" height="100" class="flex mt-2">
+                    <img src="../assets/pictures/a-logo-with-the-text-renovable-energy-wi_U3MbIY2rTayEEb1WnoeuJg_vDnmoc8_Th2t5tTGjgpLwA-removebg-preview 1.png" alt="Logo" width="100">
                 </li>
                 <li><a href="Index.html" class="hover:text-blue-800">Inicio</a></li>
                 <li><a href="dashboard.html" class="hover:text-blue-800">Dashboard</a></li>
-                <li><a href="formulario.html" class="hover:text-blue-800">Consumo de energia</a></li>
+                <li><a href="formulario.html" class="hover:text-blue-800">Consumo de energía</a></li>
                 <li><a href="aprendamos.html" class="hover:text-blue-800">Aprende con nosotros</a></li>
             </ul>
         </nav>
-    </div>
-    <h2>Bienvenido señor usuario</h2>
-    <footer class="flex bg-black gap-8">
-        <div class="info">
-            <p><strong class="text-2xl text-white">Ubicación:</strong></p>
-        <div class="information mt-9">
-            <p class="text-white">Telefono: (+57 000-000-00)</p>
-            <p class="text-white">Correo: </p>
-            <p class="text-white">mail@example.com</p>
-        </div>
-        </div>
-        <div class="acerca">
-            <p class="flex justify-center text-white text-2xl">Misión:</p>
-          <div class="information mt-9">
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, alias nam cupiditate atque, ipsa quis deleniti.</p>
-            <p class="text-white">Empresa:</p>
-            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam ullam quos iusto, id rerum ex fugiat facere quo nulla nostrum repudiandae labore nobis ipsum!</p>
-            <p class="text-white">Visión:</p>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, maiores ad praesentium laboriosam repellat culpa placeat fugit unde aliquam sit voluptatum magni eligendi expedita impedit ullam ipsam iusto quibusdam tempore.</p>
-          </div>
-        </div>
-        <div class="infolegal">
-             <p class="text-white text-2xl">Terminos de uso:</p>
-            <div class="information mt-9">
-                <p class="text-white">Politica de privacidad</p>
-                <p class="text-white">Politica de Cookies</p>
-            </div>
-        </div>
-        <div class="masInformacion mt-20">
-            <p class="text-white">Obten mas información</p>
+    </header>
 
-            <div class="inputs flex flex-col mb-3">
-                <input type="text" class="w-100px rounded-full" placeholder=" Ingresa tu correo:">
-            </div>
-            <button class="btn btn-primary btn-sm ml-12">Enviar</button>
+    <main class="flex gap-12 ">
+        <aside class="lista">
+            <ul>
+                <li><a href="#fin"><button><img src="../assets/pictures/png/historia.png" width="100" alt="Historia"> <span>Final de Página</span></button></a></li>
+                <li><a href="#solaris"><button><img src="../assets/pictures/png/sun.png" width="100" alt="Solar"> <span>Energía Solar</span></button></a></li>
+                <li><a href="#eolica"><button><img src="../assets/pictures/png/eolic.png" width="100" alt="Eólica"> <span>Energía Eólica</span></button></a></li>
+                <li><a href="#hidro"><button><img src="../assets/pictures/png/hidro.png" width="100" alt="Hidráulica"> <span>Energía Hidroeléctrica</span></button></a></li>
+                <li><a href="#geo"><button><img src="../assets/pictures/png/geotermica.png" width="100" alt="Geotérmica"> <span>Energía Geotérmica</span></button></a></li>
+                <li><a href="#biomasa"><button><img src="../assets/pictures/png/biomasa.png" width="100" alt="Biomasa"> <span>Biomasa</span></button></a></li>
+                <li><a href="#marina"><button><img src="../assets/pictures/png/marina.png" width="100" alt="Marina"> <span>Energía Marina</span></button></a></li>
+            </ul>
+        </aside>
+
+        <div class="contentSeccion">
+            <section class="histo">
+                <h1 class="text-2xl flex justify-center">Energías Renovables: Una Alternativa Sostenible para el Futuro</h1>
+                <div class="imageninfo flex justify-center mt-9 mb-9">
+                    <img src="../assets/pictures/Img Inicio/renovable.jpg">
+                </div>
+                <p class="m-7">Las energías renovables son fuentes de energía obtenidas de recursos naturales que se regeneran de manera continua, como la luz solar, el viento, el agua y el calor interno de la Tierra. A diferencia de los combustibles fósiles (carbón, petróleo y gas natural), las energías renovables son sostenibles a largo plazo y generan un impacto ambiental significativamente menor. Estas fuentes de energía han cobrado una gran importancia en las últimas décadas debido a la creciente preocupación por el cambio climático, la contaminación ambiental y el agotamiento de los recursos fósiles.
+                A pesar del crecimiento de las energías renovables, los combustibles fósiles continúan siendo la principal fuente de energía a nivel global. Actualmente,representan alrededor del 86.7% de la matriz energética mundial, según la Agencia Internacional de la Energía (AIE). Se estima que, en el año 2050, a pesardel aumento en el uso de energías renovables, los combustibles fósiles seguirán teniendo un papel relevante en la producción energética.
+                <br>
+                En países como Colombia, los combustibles fósiles representan el 66.3% del consumo final de energía, siendo utilizados principalmente en los sectores de transporte, industria y generación de electricidad. La energía química almacenada en estos combustibles se libera a través de la combustión, transformándose en calor o en otras formas de energía útiles para diversas aplicaciones. Sin embargo, la quema de combustibles fósiles genera emisiones contaminantes, incluyendo dióxido de carbono (CO₂), que contribuyen significativamente al calentamiento global.
+                <br>
+                El uso prolongado de combustibles fósiles ha provocado graves problemas ambientales. La combustión de estos recursos genera contaminantes atmosféricos como dióxido de azufre (SO₂), óxidos de nitrógeno (NOₓ) y material particulado, que están directamente relacionados con problemas de salud como enfermedades respiratorias y cardiovasculares. Además, estos contaminantes son responsables del smog urbano, la lluvia ácida y el deterioro de ecosistemas.
+                </p>
+            </section>
+    
+            <section id="solaris">
+                <h2 class="text-2xl flex justify-center">Energía Solar</h2>
+                <div class="imagenInfo flex justify-center mt-12 mb-9">
+                    <img src="../assets/pictures/Img Inicio/pros-y-contras.jpg" width="700px">
+                </div>
+                <p class="m-7">La energía solar es una de las fuentes renovables más abundantes, ya que el sol emite una cantidad de energía que supera ampliamente el consumo energético mundial. Aunque la energía solar es una alternativa limpia y sostenible, enfrenta desafíos como la intermitencia (dependencia de las horas de sol) y los costos de almacenamiento en baterías.</p>
+            </section>
+    
+            <section id="eolica">
+                <h2 class="text-2xl flex justify-center mt-12">Energía Eólica</h2>
+                <div class="imagenInfo flex justify-center">
+                    <img src="../assets/pictures/Img Inicio/eolica.jpg" width="700px">
+                </div>
+                <p class="m-7">La energía eólica se genera a partir del movimiento del viento, que impulsa turbinas conectadas a generadores eléctricos. Se ha convertido en una de las fuentes renovables de mayor crecimiento, con parques eólicos terrestres y marinos en expansión a nivel mundial.</p>
+            </section>
+    
+            <section id="hidro">
+                <h2 class="text-2xl flex justify-center">Energía Hidroeléctrica</h2>
+                <div class="ImagenInfo flex justify-center mt-12 mb-9">
+                    <img src="../assets/pictures/Img Inicio/hidroelectrica.jpg" width="700px">
+                </div>
+                <p class="m-7">Es la fuente de energía renovable más utilizada a nivel global. Se basa en el aprovechamiento de la energía potencial del agua almacenada en embalses o en ríos con caídas naturales. Sin embargo, la construcción de grandes represas puede tener impactos ecológicos y sociales, como la alteración de ecosistemas acuáticos y el desplazamiento de comunidades.</p>   
+            </section>
+    
+            <section id="geo">
+                <h2 class="text-2xl flex justify-center">Energía Geotérmica</h2>
+                <div class="imagenInfo flex justify-center mt-12 mb-9">
+                    <img src="../assets/pictures/Img Inicio/geotermica.avif" width="700px">
+                </div>
+                <p class="m-7">Proviene del calor almacenado en el interior de la Tierra. Se utiliza en plantas geotérmicas para la generación de electricidad o en sistemas de calefacción. Es una fuente de energía constante y confiable, pero su uso está limitado a regiones con actividad geotérmica significativa.</p>
+            </section>
+    
+            <section id="biomasa">
+                <h2 class="text-2xl flex justify-center">Biomasa</h2>
+                <div class="imagenInfo flex justify-center mt-12 mb-9">
+                    <img src="../assets/pictures/Img Inicio/biomasa.jpg" width="700px">
+                </div>
+                <p class="m-7">Consiste en la conversión de materia orgánica (residuos agrícolas, forestales y urbanos) en energía. Puede utilizarse para generar electricidad, calor o biocombustibles como el etanol y el biodiésel. Aunque es renovable, la biomasa debe manejarse de manera sostenible para evitar impactos negativos, como la deforestación.</p>
+            </section>
+    
+            <section id="marina">
+                <h2 class="text-2xl flex justify-center">Energía Marina</h2>
+                <div class="imagenInfo flex justify-center mt-12 mb-9">
+                    <img src="../assets/pictures/Img Inicio/mareomotriz.jpg" width="700px">
+                </div>
+                <p class="m-7">Incluye la energía mareomotriz (aprovechamiento de las mareas), la undimotriz (energía de las olas) y la energía térmica oceánica. Aunque su desarrollo aún es limitado, representa un gran potencial en el futuro.</p>
+            </section>
         </div>
-        <hr>
+    </main>
+
+    <footer class="bg-black text-white p-4">
+        <p><strong>Ubicación:</strong> Teléfono: (+57 000-000-00) | Correo: mail@example.com</p>
+        <p><strong>Misión:</strong> Lorem ipsum dolor sit amet...</p>
+        <p><strong>Visión:</strong> Lorem ipsum dolor sit amet...</p>
+        <p><strong>Términos de uso:</strong> Política de privacidad | Política de Cookies</p>
     </footer>
-</body> 
+</body>
+
 </html>
